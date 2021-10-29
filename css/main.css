@@ -146,7 +146,8 @@ html{
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
-.main-tables-container .main-currency-table .currency-table-title{
+.main-tables-container .main-currency-table .currency-table-title,
+.comision-table-title{
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -213,4 +214,7 @@ html{
     background-repeat: no-repeat;
     
 }
-
+ /* tabla 2 */
+.main-tables-container .main-currency-table .comision-table-title{
+    color: var(--secondary-blue);
+}
