@@ -387,3 +387,52 @@ html{
     color: #757575;
 }
 
+/* estilos de tarjetas */
+
+.plans-container--slider .plans-container--card{
+    position: relative;
+    width: 70%;
+    margin: 50px auto 0;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans-container--slider .plans-container--card .recomendado{
+    width: 120px;
+    position: absolute;
+    left: calc(50% - 60px);
+    top: -15px;
+    height: 31px;
+    font-size: 1.2rem;
+    padding: 7px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    border-radius: 8px;
+}
+.plans-container--slider .plans-container--card .plan-info-container .plan-card--title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plans-container--slider .plans-container--card .plan-info-container .plan-card--price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+.plans-container--slider .plans-container--card .plan-info-container .plan-card--price span{
+    font-size: 1.2rem;
+    font-weight: 400;
+    vertical-align: 25px;
+}
+.plans-container--slider .plans-container--card .plan-info-container .plan-card--saving{
+    font-size: 1.2rem;
+    color: #757575;
+}
