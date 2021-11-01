@@ -21,6 +21,7 @@
 html{
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* estilos del header */
@@ -250,7 +251,7 @@ html{
 .main-product-detail{
     position: relative;
     width: 100%;
-    min-widt-ñ: 320px;
+    min-width: 320px;
     height: auto;
     padding: 20px 10px;
     background-color: var(--black);
