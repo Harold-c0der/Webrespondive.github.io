@@ -391,8 +391,9 @@ html{
 
 .plans-container--slider .plans-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
-    margin: 50px auto 0;
+    margin: 50px 30px 0;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
@@ -463,3 +464,12 @@ html{
     vertical-align: text-bottom;
 }
 
+/* estilos del slider */
+
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
