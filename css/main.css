@@ -154,7 +154,7 @@ html{
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-    text-align: left;
+    text-align: center;
 }
 .main-currency-table .currency-table--container{
     width: 90%;
